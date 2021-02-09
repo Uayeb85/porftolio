@@ -21,7 +21,7 @@
            <i class="fa fa-heart" aria-hidden="true"></i> </span> love in
            <span> <a href="https://en.wikipedia.org/wiki/Mexico_City" class="hover:bg-gray-900 font-semibold cursor-pointer">  CDMX  </a> </span> 
            </h4>  
-         <p class="text-gray-100  text-lg md:text-xl">2020</p>
+         <p class="text-gray-100  text-lg md:text-xl">{{getCurrentYear}}</p>
        </div>
 
       </div>
@@ -37,7 +37,10 @@
 <script>
 export default {
   name: 'About',
-  props: {
+  computed:{
+    getCurrentYear(){
+      return new Date().getFullYear()
+    }
   }
 }
 </script>

@@ -1,5 +1,5 @@
-const c1 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/home/uayeb/Escritorio/iamuayeb/node_modules/gridsome/app/pages/404.vue")
-const c2 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/uayeb/Escritorio/iamuayeb/src/pages/Index.vue")
+const c1 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/home/uayeb/Escritorio/porftolio/node_modules/gridsome/app/pages/404.vue")
+const c2 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/uayeb/Escritorio/porftolio/src/pages/Index.vue")
 
 export default [
   {

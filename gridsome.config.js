@@ -13,8 +13,36 @@ module.exports = {
     loaderOptions: {
       postcss: {
         plugins: [
-          tailwindcss
+          {tailwindcss},
+          {
+            use: '@gridsome/source-filesystem',
+            options: {
+              typeName: 'Project',
+              path: 'projects/**/*.md',
+              refs: {
+                // Create a Tag content type and its nodes automatically.
+                tags: {
+                  typeName: 'Tag',
+                  create: true
+                }
+              }
+            }
+          }
         ],
+        templates:{
+          Project:[
+            {
+            path:"/projects/:title",
+            componet:"./src/templates/Project.vue"
+          }
+        ],
+          Tag:[
+            {
+              path:"tags/:id",
+              componet:".src/templates/Tag.vue"
+            }
+          ]
+        }
       },
     },
   }

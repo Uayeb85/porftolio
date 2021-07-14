@@ -3,11 +3,11 @@
       <div class="pt-10 bg-indigo-600 aboutmini">
         <h3 class="text-gray-100 font-extrabold text-3xl md:text-6xl about pt-5">About me</h3>
         <h4 class="mt-6 text-justify p-4 text-gray-200 font-semibold">
-          Hello, I am Uayeb and I'm your next favourite web developer.
-          My trademark is to always be sure that the person or bussiness I work with totally understands and feels entirely 
-          satisfied with the products I deliver,
-          because I believe that web development is fundamental for a start-up or project to thrive. <br>
-          Feel free to ask! I will happily solve all your doubts. 
+        Hello, I am Uayeb, and I'm your next favorite web developer. My trademark is to always be sure that the person or 
+        business I work with totally understands and feels entirely satisfied with the products I deliver, because I believe 
+        that web development is fundamental for a start-up or project to thrive. <br>
+                    Feel free to ask! I will happily solve all your doubts.  
+
         </h4>
       </div>
       <div class="curved"></div>
@@ -19,11 +19,10 @@
         <div class="flex  flex-col items-center titulo-about">
           <h3 class="text-indigo-600 font-extrabold text-2xl md:text-6xl mt-10">About me</h3>
           <h4 class="mt-6 text- justify px-24 pt-16 text-indigo-600 font-semibold text-2xl">
-        Hello, I am Uayeb and I'm your next favourite web developer.
-          My trademark is to always be sure that the person or bussiness I work with totally understands and feels entirely 
-          satisfied with the products I deliver,
-          because I believe that web development is fundamental for a start-up or project to thrive. <br>
-          Feel free to ask! I will happily solve all your doubts. 
+        Hello, I am Uayeb, and I'm your next favorite web developer. My trademark is to always be sure that the person or 
+        business I work with totally understands and feels entirely satisfied with the products I deliver, because I believe 
+        that web development is fundamental for a start-up or project to thrive.. <br>
+          Feel free to ask! I will happily solve all your doubts.  
           </h4>
 
 
